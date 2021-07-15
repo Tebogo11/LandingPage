@@ -18,24 +18,18 @@ const Service = ({ id }) => {
       <ServiceWrapper>
         <ServiceCard>
           <ServiceIcon src={Icon1} />
-          <ServiceH2>Reduce expenses </ServiceH2>
-          <ServiceP>
-            We help reduce your fees and increase your overall revenue
-          </ServiceP>
+          <ServiceH2>Groupens</ServiceH2>
+          <ServiceP>Bring a large group with you and get a discount</ServiceP>
         </ServiceCard>
         <ServiceCard>
           <ServiceIcon src={Icon2} />
-          <ServiceH2>Virtual Offices</ServiceH2>
-          <ServiceP>
-            You can access our platform online anywhere in the world
-          </ServiceP>
+          <ServiceH2>Take your pick</ServiceH2>
+          <ServiceP>Pick from a large range of options</ServiceP>
         </ServiceCard>
         <ServiceCard>
           <ServiceIcon src={Icon3} />
-          <ServiceH2>Premium Benefits</ServiceH2>
-          <ServiceP>
-            Unlock our special membership card that returns 5% cash back
-          </ServiceP>
+          <ServiceH2>Easy Access</ServiceH2>
+          <ServiceP>Rent from our website or mobile application</ServiceP>
         </ServiceCard>
       </ServiceWrapper>
     </ServiceContainer>

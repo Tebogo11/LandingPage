@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Video from "../../videos/video.mp4";
+import Video from "../../videos/Boat.mp4";
 import { Button } from "../ButtonElement";
 import {
   HeroBg,
@@ -25,10 +25,10 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Virtual Banking Made Easy</HeroH1>
+        <HeroH1>Boat Rentals Made Easy</HeroH1>
         <HeroP>
-          Sign up for a new account today and recieve $250 in credit towards
-          your next payment.
+          Contact us now for information, and get an extra hour free on your
+          first rental
         </HeroP>
         <HeroBtnWrapper>
           <Button
@@ -44,7 +44,7 @@ const HeroSection = () => {
             offset={-80}
             activeClass="active"
           >
-            Get started {hover ? <ArrowForward /> : <ArrowRight />}
+            Contact US{hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
